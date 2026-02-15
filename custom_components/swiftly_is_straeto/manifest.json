@@ -1,0 +1,12 @@
+{
+  "domain": "swiftly_is_straeto",
+  "name": "Swiftly IS Straeto",
+  "codeowners": ["@finnure"],
+  "config_flow": true,
+  "dependencies": ["http"],
+  "documentation": "https://github.com/finnure/swiftly_is_straeto",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "1.0.0",
+  "strings": "$intg:custom_components.swiftly_is_straeto.strings.json"
+}

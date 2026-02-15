@@ -1,0 +1,38 @@
+"""Constants for the Swiftly IS Straeto integration."""
+
+DOMAIN = "swiftly_is_straeto"
+DEFAULT_UPDATE_TIME = 30
+
+CONF_USER = "user"
+CONF_ROUTES = "routes"
+CONF_ROUTE = "route"
+CONF_STOPS = "stops"
+CONF_ROUTE_NAME = "route_name"
+CONF_STOP_NAME = "stop_name"
+
+ATTR_DIRECTION = "direction"
+
+# JSON keys
+JSON_ROUTE_ID = "routeId"
+JSON_ROUTE_NAME = "routeName"
+JSON_STOP_ID = "stopId"
+JSON_STOP_NAME = "stopName"
+JSON_PREDICTIONS = "predictions"
+JSON_VEHICLES = "vehicles"
+JSON_SCHEDULE_ADHERENCE_SECONDS = "schAdhSecs"
+JSON_SCHEDULE_ADHERENCE_STRING = "schAdhStr"
+JSON_NEXT_STOP_NAME = "nextStopName"
+JSON_BLOCK_ID = "blockId"
+JSON_VEHICLE_ID = "vehicleId"
+JSON_TRIP_ID = "tripId"
+JSON_DIRECTION_ID = "directionId"
+JSON_HEADSIGN = "headsign"
+JSON_SCHEDULE_HEADWAY_SECONDS = "scheduledHeadwaySecs"
+JSON_DESTINATIONS = "destinations"
+JSON_TIME = "time"
+JSON_ID = "id"
+JSON_PREDICTIONS_DATA = "predictionsData"
+JSON_DIRECTIONS = "directions"
+JSON_AGENCY_KEY = "agencyKey"
+JSON_NAME = "name"
+JSON_TITLE = "title"
